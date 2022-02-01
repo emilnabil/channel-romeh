@@ -1,6 +1,6 @@
 #!/bin/sh # 
  # # Command: wget https://raw.githubusercontent.com/emilnabil/channel-romeh/main/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
-MY_URL=https://raw.githubusercontent.com/emilnabil/channel-romeh/main/  
+MY_URL="https://raw.githubusercontent.com/emilnabil/channel-romeh/main"
 echo "******************************************************************************************************************"
 echo "    download and install channel  "
 echo "============================================================================================================================="
@@ -39,6 +39,8 @@ echo "**************************************************************************
 wait
 killall -9 enigma2
 exit 0
+
+
 
 
 
