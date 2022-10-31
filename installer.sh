@@ -157,7 +157,7 @@ if [ $OSTYPE = "Opensource" ]; then
 fi
 
 #########################
-rm -rf ${TMPDIR}/channels_backup_by_Emil-Nabil.tar.gz
+rm -rf ${TMPDIR}/channels_backup_by-romeh.tar.gz
 rm -rf ${TMPDIR}/* astra-
 rm -rf ${TMPDIR}/* bbc_pmt_v6
 
@@ -182,6 +182,7 @@ else
 fi
 
 exit 0
+
 
 
 
