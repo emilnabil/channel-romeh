@@ -16,6 +16,7 @@ if [ -f /etc/opkg/opkg.conf ]; then
     OPKG='opkg update'
     OPKGINSTAL='opkg install'
 fi
+
 echo "        REMOVE OLD CHANNELS..."
 
 rm -rf /etc/enigma2/lamedb
@@ -57,6 +58,7 @@ else
 fi
 
 exit 0
+
 
 
 
